@@ -1,0 +1,11 @@
+@import url("style/header.css");
+
+:root {
+    --cor-fundo-carrossel: #EBECEE;
+    --cor-fundo: #FFFFFF;
+}
+
+body {
+    background-color: var(--cor-fundo-carrossel);
+}
+
