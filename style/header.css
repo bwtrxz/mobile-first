@@ -32,4 +32,23 @@
     display: none;
     position: absolute;
     top: 100%;
+    text-decoration: none;
+}
+
+.lista-menu_titulo, .lista-menu_item {
+    padding: 1em;
+    background-color: var(--cor-fundo);
+}
+
+.lista-menu_titulo {
+    color: var(--cor-laranja);
+    font-weight: 600;
+}
+
+.lista-menu_link {
+    background: var(--cor-azul);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
 }
