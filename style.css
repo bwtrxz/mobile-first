@@ -1,8 +1,9 @@
 @import url("style/header.css");
+@import url("style/banner.css");
 
 :root {
     --cor-fundo-carrossel: #EBECEE;
-    --cor-fundo: #FFFFFF;
+    --cor-branca: #FFFFFF;
     --cor-laranja: #EB9B00;
     --cor-azul: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --font-principal: "Poppins";
