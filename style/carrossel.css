@@ -76,3 +76,7 @@
     color: var(--cor-branca);
     font-weight: 700;
 }
+
+.descricao__estrelinhas {
+    padding: 2em 0 0 0;
+}
