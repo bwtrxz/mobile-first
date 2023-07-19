@@ -5,10 +5,14 @@
     --cor-fundo: #FFFFFF;
     --cor-laranja: #EB9B00;
     --cor-azul: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --font-principal: "Poppins";
 
 }
 
 body {
     background-color: var(--cor-fundo-carrossel);
+    font-family: var(--font-principal);
+    font-size: 1rem;
+    font-weight: 500;
 }
 
