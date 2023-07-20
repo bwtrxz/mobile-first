@@ -9,9 +9,11 @@
     --cor-fundo-carrossel: #EBECEE;
     --cor-branca: #FFFFFF;
     --cor-laranja: #EB9B00;
+    --cor-preta: #000;
     --cor-azul-secundaria: #002F52;
     --cor-azul: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --font-principal: "Poppins";
+    --font-secundaria: "Josefin Sans"
 
 }
 

@@ -38,3 +38,12 @@
     color: var(--cor-azul-secundaria);
     font-family: var(--font-principal);
 }
+
+@media screen and (min-width: 1024px) {
+
+    .contato {
+        display: flex;
+
+    }
+
+}

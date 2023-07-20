@@ -62,6 +62,7 @@
 .descricao__texto {
     font-size: 0.9rem;
     margin: 0 0.1em 0 0;
+    width: 90%;
 }
 
 .descricao__estrelinhas {
@@ -84,4 +85,34 @@
 
 .descricao__estrelinhas {
     padding: 2em 0 0 0;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .carrossel__titulo {
+        font-size: 1.5rem;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0 2em 0;
+    }
+
+    .swiper {
+        width: 65%;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: block;
+        top: 60%;
+    }
+
+    .card {
+        width: 40%;
+        margin: 2em auto;
+    }
+
+    .card__autor {
+        width: 60%;
+        margin: 2em auto;
+    }
 }
