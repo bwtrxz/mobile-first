@@ -43,7 +43,22 @@
 
     .contato {
         display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2em;
+    }
 
+    .contato__descricao {
+        margin-right: 2.5em;
+        width: 35%;
+    }
+
+    .contato__titulo {
+        font-size: 1.5rem;
+    }
+
+    .contato__email {
+        width: 35%;
     }
 
 }
