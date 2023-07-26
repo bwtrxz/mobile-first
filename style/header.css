@@ -7,14 +7,6 @@
     background-position: center;
 }
 
-.container__botao:checked ~ .container__rotulo > .cabecalho__menu-hamburguer {
-    background-image: url("../img/MenuAberto.png");
-}
-
-.container__botao:checked ~ .container__rotulo {
-    background: var(--cor-azul);
-}
-
 .cabecalho {
     background-color: var(--cor-fundo);
     display: flex;
@@ -122,6 +114,15 @@
 
     .opcoes__botao {
         display: none;
+    }
+
+    .opcoes__botao:checked ~ .opcoes__rotulo >  .opcoes__itens {
+        background: var(--cor-azul);
+        color: var(--cor-branca);
+    }
+
+    .opcoes__itens {
+        padding: 2em 1em;
     }
 }
 
